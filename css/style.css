@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #1e1e2f;
+  color: #f4f4f4;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #060097;
+}
+
+.logo {
+  max-width: 150px;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #ffcd57;
+}
+
+main {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.services h2,
+.contact h2 {
+  color: #c10fff;
+  margin-top: 2rem;
+}
+
+ul {
+  list-style: square inside;
+  padding-left: 1rem;
+}
+
+a {
+  color: #ffcd57;
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  background: #060097;
+  color: #ccc;
+}
