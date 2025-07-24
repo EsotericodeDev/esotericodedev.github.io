@@ -1,15 +1,15 @@
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  background: #1e1e2f;
-  color: #f4f4f4;
+  background-color: #1e1e1e; /* Charcoal */
+  color: #f5f2ea; /* Bone white */
   line-height: 1.6;
 }
 
 header {
   text-align: center;
   padding: 2rem 1rem;
-  background-color: #060097;
+  background-color: #1e1e1e;
 }
 
 .logo {
@@ -19,7 +19,7 @@ header {
 
 h1 {
   font-size: 1.5rem;
-  color: #ffcd57;
+  color: #d9b678; /* Light Gold */
 }
 
 main {
@@ -30,8 +30,10 @@ main {
 
 .services h2,
 .contact h2 {
-  color: #c10fff;
+  color: #a2824a; /* Deep Gold */
   margin-top: 2rem;
+  border-bottom: 1px solid #a2824a;
+  padding-bottom: 0.5rem;
 }
 
 ul {
@@ -40,14 +42,18 @@ ul {
 }
 
 a {
-  color: #ffcd57;
+  color: #d9b678;
   text-decoration: underline;
+}
+
+a:hover {
+  color: #a96e61; /* Optional accent for hover */
 }
 
 footer {
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
-  background: #060097;
-  color: #ccc;
+  background-color: #1e1e1e;
+  color: #aaa;
 }
