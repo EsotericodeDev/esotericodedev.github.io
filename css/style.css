@@ -244,39 +244,6 @@ h1, h2, h3 {
     0 30px 80px rgba(0, 0, 0, 0.5);
 }
 
-/* Trust strip */
-
-.trust {
-  border-top: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
-  background: var(--bg-alt);
-}
-
-.trust-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-.trust-grid div {
-  display: flex;
-  flex-direction: column;
-  padding-left: 1rem;
-  border-left: 2px solid var(--gold-deep);
-}
-
-.trust-grid strong {
-  color: var(--text);
-  font-weight: 600;
-}
-
-.trust-grid span {
-  color: var(--muted);
-  font-size: 0.9rem;
-}
-
 /* Sections */
 
 .section {
@@ -379,6 +346,10 @@ h1, h2, h3 {
   margin-top: 1.25rem;
 }
 
+.card-wide p {
+  margin: 0;
+}
+
 .checks-cols {
   columns: 2;
   column-gap: 2rem;
@@ -388,28 +359,13 @@ h1, h2, h3 {
   break-inside: avoid;
 }
 
-/* Engagement models */
+/* Notes */
 
-.models {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.25rem;
-  margin-top: 1.25rem;
-}
-
-.model {
-  padding: 1.5rem 1.75rem;
-  border-radius: var(--radius);
-  border: 1px dashed var(--border);
-}
-
-.model h3 {
-  font-size: 1.15rem;
-  margin-bottom: 0.4rem;
-}
-
-.model p {
-  margin: 0;
+.note {
+  max-width: 44rem;
+  margin: 2rem 0 0;
+  padding-left: 1rem;
+  border-left: 2px solid var(--gold-deep);
   color: var(--muted);
   font-size: 0.95rem;
 }
@@ -479,6 +435,11 @@ h1, h2, h3 {
   margin: 0 auto 1.75rem;
 }
 
+.contact-box .contact-fine {
+  margin: 1.5rem auto 0;
+  font-size: 0.88rem;
+}
+
 /* Footer */
 
 .site-footer {
@@ -531,10 +492,8 @@ h1, h2, h3 {
     margin: 0;
   }
 
-  .trust-grid,
   .cards-2,
   .cards-3,
-  .models,
   .steps {
     grid-template-columns: 1fr;
   }
